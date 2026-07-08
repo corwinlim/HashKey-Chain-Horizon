@@ -1,0 +1,30 @@
+{
+  "name": "caios-trust-engine",
+  "version": "0.1.0",
+  "description": "An AI-native trust and verification layer for Companion Animal Intelligence",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network hashkey-testnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network hashkey-mainnet"
+  },
+  "keywords": [
+    "blockchain",
+    "hashkey-chain",
+    "ai",
+    "trust",
+    "verification",
+    "companion-animals"
+  ],
+  "author": "Trust Intelligence Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@hardhat/hardhat-ethers": "^3.0.0",
+    "hardhat": "^2.19.0",
+    "ethers": "^6.0.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.0.0"
+  }
+}
